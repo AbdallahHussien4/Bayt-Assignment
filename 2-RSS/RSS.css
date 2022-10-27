@@ -1,6 +1,8 @@
 table {
     border-collapse: collapse;
-    width: 100%;
+    overflow-y:scroll;
+    height: 600px;
+    display:block;
 }
 
 th,td {
@@ -35,4 +37,31 @@ th {
 .button:hover {
     color: black;
     background: white;
+}
+
+.MapButton {
+    background-color: #008CBA; 
+    border: none;
+    color: black;
+    text-align: center;
+    display: inline-block;
+    padding: 5px 5px;
+    font-size: 13px;
+    font-weight: bold;
+  }
+
+#tableContainer {
+    width: 60%;
+    float: left;
+
+}
+
+#mapContainer {
+    width: 40%;
+    float: right;
+
+}
+#map{
+    height: 600px;
+    width: 100%;
 }

@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="RSS.css">
 	<!--JavaScript-->
 	<script src="RSS.js"> </script>
+	<script async defer src="http://maps.google.com/maps/api/js?key=AIzaSyBrxMji_hGo6bc2iuw7xHV80SDlV0EjUZY" type="text/javascript"></script>
 </head>
 
 <body>
@@ -15,9 +16,13 @@
 			Show All Jobs
 		</button>
 	</center>
-	
 	<br><br>
-	<table id="table"></table>
+	<div id="tableContainer">
+		<table id="table" ></table>
+	</div>
+	<div id="mapContainer">
+		<iframe id ="map" style="border:0" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+	</div>
 </body>
 
 </html>
